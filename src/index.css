@@ -288,6 +288,17 @@ aside {
   color: white;
 }
 
+.ok {
+  max-width: 100%;
+  max-width: 400px;
+  font-weight: 400;
+  padding: 20px;
+  border-radius: 3px;
+  margin: 2rem auto 0 auto;
+  background-color: rgb(87, 209, 87) !important;
+  color: white;
+}
+
 .tarea-enter,
 .proyecto-enter {
   opacity: 0;

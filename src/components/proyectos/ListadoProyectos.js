@@ -15,7 +15,12 @@ const ListadoProyectos = () => {
 
   // revisar si hay o no proyectos, en caso de que no existan, retorna null
   if (proyectos.length === 0) {
-    return null;
+    return (
+      <div>
+        <p>¯\_(ツ)_/¯</p>
+        <p>Parece que no tienes proyectos aun... comienza creando uno!</p>
+      </div>
+    );
   }
 
   return (

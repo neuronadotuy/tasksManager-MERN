@@ -131,10 +131,17 @@ aside {
   margin-top: 6rem;
 }
 .formulario-nuevo-proyecto .input-text {
-  border-bottom: 1px solid var(--gris2);
+  border: 1px solid var(--gris2);
   border-radius: 0;
   background-color: var(--gris1);
 }
+
+.input-text-error {
+  border: 1px solid #ff3c3c !important;
+  border-radius: 0;
+  background-color: #ffe8e8;
+}
+
 .formulario-nuevo-proyecto .input-text::placeholder {
   color: var(--gris2);
 }
@@ -295,7 +302,9 @@ aside {
   padding: 20px;
   border-radius: 3px;
   margin: 2rem auto 0 auto;
-  background-color: rgb(87, 209, 87) !important;
+  /* background-color: rgb(87, 209, 87) !important; */
+  background-color: rgba(119, 255, 119, 0.9);
+
   color: white;
 }
 
